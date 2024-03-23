@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "description": "Sendbird SDK for JavaScript",
+  "name": "autfugiat",
+  "author": "ClintLeuschke",
+  "keywords": [
+    "sapiente",
+    "sendbird.com",
+    "messaging",
+    "chat",
+    "js"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnjaliGoldner/autfugiat.git"
+  },
+  "type": "module",
+  "main": "bundles/sendbird.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": "./bundles/sendbird.js",
+    "./message": "./bundles/message.js",
+    "./groupChannel": "./bundles/groupChannel.js",
+    "./openChannel": "./bundles/openChannel.js"
+  },
+  "typesVersions": {
+    "*": {
+      "message": [
+        "./types/message.d.ts"
+      ],
+      "groupChannel": [
+        "./types/groupChannel.d.ts"
+      ],
+      "openChannel": [
+        "./types/openChannel.d.ts"
+      ]
+    }
+  }
+}
